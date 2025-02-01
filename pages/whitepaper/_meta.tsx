@@ -20,17 +20,10 @@ const meta = {
       </>
     ),
   },
-  "legal-disclaimer": {
+  tokenomics: {
     title: (
       <>
-        <Scale style={iconStyle} /> &nbsp; Legal Disclaimer
-      </>
-    ),
-  },
-  "official-channels": {
-    title: (
-      <>
-        <Share2 style={iconStyle} /> &nbsp; Official Channels
+        <Coins style={iconStyle} /> &nbsp; Tokenomics
       </>
     ),
   },
@@ -41,10 +34,17 @@ const meta = {
       </>
     ),
   },
-  tokenomics: {
+  "official-channels": {
     title: (
       <>
-        <Coins style={iconStyle} /> &nbsp; Tokenomics
+        <Share2 style={iconStyle} /> &nbsp; Official Channels
+      </>
+    ),
+  },
+  "legal-disclaimer": {
+    title: (
+      <>
+        <Scale style={iconStyle} /> &nbsp; Legal Disclaimer
       </>
     ),
   },
