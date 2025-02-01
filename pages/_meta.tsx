@@ -1,5 +1,4 @@
-import { Globe } from "lucide-react";
-
+import { Globe, Home } from "lucide-react";
 const iconStyle = {
   width: "1rem",
   display: "inline",
@@ -8,8 +7,26 @@ const iconStyle = {
 
 const meta = {
   index: {
-    title: "Introduction",
+    title: (
+      <>
+        <Home style={iconStyle} /> Home
+      </>
+    ),
     type: "page",
+  },
+  whitepaper: {
+    title: "Whitepaper",
+    type: "page",
+  },
+  website: {
+    title: (
+      <>
+        <Globe style={iconStyle} /> Website ↗
+      </>
+    ),
+    type: "page",
+    href: "https://kronotitans.com",
+    newWindow: true,
   },
   twitter: {
     title: <>Twitter ↗</>,
@@ -27,16 +44,6 @@ const meta = {
     title: <>For Sponsors ↗</>,
     type: "page",
     href: "https://t.me/KVX_Sponsors",
-    newWindow: true,
-  },
-  website: {
-    title: (
-      <>
-        <Globe style={iconStyle} /> Website ↗
-      </>
-    ),
-    type: "page",
-    href: "https://kronotitans.com",
     newWindow: true,
   },
 };

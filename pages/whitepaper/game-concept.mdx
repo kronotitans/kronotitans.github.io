@@ -1,0 +1,99 @@
+import { Pickaxe, Trophy, IdCard as CardIcon, Swords } from "lucide-react";
+import { Cards } from "nextra/components";
+
+# Game Concept
+
+The first game in the Krono Titans ecosystem, **Cosmic Clash**, is an action-packed game set in a vast space station. Players engage in thrilling gameplay that includes:
+
+<Cards>
+  <Cards.Card
+    id="mining"
+    title={
+      <div className="flex items-center gap-2">
+        <Pickaxe className="w-5 h-5" />
+        Mining
+      </div>
+    }
+    href="#"
+    children={
+      <div
+        style={{
+          fontSize: "0.9em",
+          color: "#999",
+          whiteSpace: "normal",
+          wordWrap: "break-word",
+        }}
+      >
+        Mining KTN tokens directly in-game.
+      </div>
+    }
+  />
+  <Cards.Card
+    id="tasks"
+    title={
+      <div className="flex items-center gap-2">
+        <Trophy className="w-5 h-5" />
+        Tasks & Rewards
+      </div>
+    }
+    href="#"
+    children={
+      <div
+        style={{
+          fontSize: "0.9em",
+          color: "#999",
+          whiteSpace: "normal",
+          wordWrap: "break-word",
+        }}
+      >
+        Completing tasks to earn valuable rewards.
+      </div>
+    }
+  />
+  <Cards.Card
+    id="nft"
+    title={
+      <div className="flex items-center gap-2">
+        <CardIcon className="w-5 h-5" />
+        NFT Collection
+      </div>
+    }
+    href="#"
+    children={
+      <div
+        style={{
+          fontSize: "0.9em",
+          color: "#999",
+          whiteSpace: "normal",
+          wordWrap: "break-word",
+        }}
+      >
+        Collecting and trading special NFT-based cards and items.
+      </div>
+    }
+  />
+  <Cards.Card
+    id="battles"
+    title={
+      <div className="flex items-center gap-2">
+        <Swords className="w-5 h-5" />
+        Team Battles
+      </div>
+    }
+    href="#"
+    children={
+      <div
+        style={{
+          fontSize: "0.9em",
+          color: "#999",
+          whiteSpace: "normal",
+          wordWrap: "break-word",
+        }}
+      >
+        Engaging in team-based missions and strategic battles.
+      </div>
+    }
+  />
+</Cards>
+
+With blockchain integration, all in-game assets are truly owned by the players, ensuring transparency and the ability to trade items securely.
